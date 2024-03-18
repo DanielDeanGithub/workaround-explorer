@@ -35,3 +35,4 @@ const getDataByCompany = (company) => {
 };
 
 export { getRoles, getCompanies, getDataByRole, getDataByCompany };
+export default salaryData;
