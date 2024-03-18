@@ -1,4 +1,5 @@
 // TODO: Add your import statements here.
+import { getRoles, getDataByCompany } from "./modules/salaryData";
 
 // TODO: Get the companies and roles using the salaryData module.
 const companies = [];
