@@ -36,3 +36,5 @@ function calculateAverage(arrayOfNumbers) {
 	arrayOfNumbers.forEach((number) => (total += number));
 	return (total / arrayOfNumbers.length).toFixed(2);
 }
+
+export { getAverageSalaryByRole, getAverageSalaryByCompany, getSalaryAtCompany, getIndustryAverageSalary };
