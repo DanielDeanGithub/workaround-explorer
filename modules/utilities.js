@@ -1,3 +1,1 @@
-const formatNumber = () => {
-
-};
+const formatNumber = (number) => number.toLocaleString();
