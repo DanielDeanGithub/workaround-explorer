@@ -1,3 +1,3 @@
-const formatNumber = (number) => number.toLocaleString();
+const formatNumber = (number) => Number(number).toLocaleString();
 
 export default formatNumber;
